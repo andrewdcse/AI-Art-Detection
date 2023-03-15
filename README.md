@@ -1,7 +1,6 @@
-<br> </br>
-# Using Neural Networks to Detect AI-Generated Images
-
 ![dalle image](midjourney.jpg)
+
+# Using Neural Networks to Detect AI-Generated Images
 
 ## Problem
 
