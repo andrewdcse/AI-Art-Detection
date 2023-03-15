@@ -1,1 +1,1 @@
-### AI Art Detection
+### Problem
