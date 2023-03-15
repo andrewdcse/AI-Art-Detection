@@ -2,6 +2,8 @@
 
 # Using Neural Networks to Detect AI Art
 
+[Project Video Link](https://youtu.be/BDmTw8Zi3vM)
+
 While AI has been used to generate images since its inception, the use of deep learning to generate images resembling art has only recently been brought to the public forefront. Following the public releases of diffusion-based image generation models in mid-2022 such as DALL-E 2, Midjourney, and Stable Diffusion, various moral and ethical concerns have been raised regarding their outputs and methods<sup>[1]</sup>.
 
 <p align="center">
