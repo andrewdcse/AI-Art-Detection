@@ -22,5 +22,7 @@ One concern is that it will be increasingly difficult to tell human-created art 
 
 ## Discussion
 
+## References
 
+<sup>[1]</sup> @egoraptor. "Look, you can just say “it’s important to me that a human person made this thing.” All this hogwash about how AI art is ugly… you care about people and that people make art. It’s important to you. You’ve just never had to face that because it’s always been a given until now." *Twitter*, 3 March 2023, 10:7 am, https://twitter.com/egoraptor/status/1631717867421933583a.
 
