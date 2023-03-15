@@ -1,4 +1,4 @@
-* *
+&nbsp
 # Using Neural Networks to Detect AI-Generated Images
 
 ![dalle image](midjourney.jpg)
