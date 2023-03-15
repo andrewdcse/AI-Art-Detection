@@ -26,9 +26,17 @@ In order to observe the effectiveness of various different neural network types,
 
 The first network trained on the data had a single layer with a RELU connection. The result was 59% accuracy, which was slightly better than random guessing or picking the most common option. 
 
-| ![simple loss function](images/simple_loss.png) | 
-|:--:| 
-| Loss function for the simple neural network. It does not show much learning. |
+<p align="center">
+  <img src="images/simple_loss.png" alt="simple loss function" width=500/>
+</p>
+
+Shown above is the loss function, which does not show much learning. It appears to simply guess that most images are real, since there are slightly more (300) real images than generated ones. However, it still does better than if it guessed "real" for all images. Here is an example of four images, all of which it guessed were real:
+
+<p align="center">
+  <img src="images/simple_guesses.png" alt="simple function guesses" width=500/>
+</p>
+
+<figure> 
 
 ### Convolutional Neural Networks
 
