@@ -42,7 +42,11 @@ The next nextwork trained on the data was a convolutional neural network with th
   
 | Optimizer | Annealing | Epochs | Batch Normalization | Learning Rate | Accuracy | Precision | Recall |
 | - | - | - | - | - | - | - | - |
-| SGD | No | 5 | No | 0.1 | 0.67 | 0.68 |  0.77 |
+| SGD | No | 5 | No | 0.01 | 0.67 | 0.68 |  0.77 |
+| SGD | Yes | 15 | No | 0.1, 0.01, 0.01 | 0.55 | 0.55 | 1.0 |
+| SGD| No | 5 | Yes | 0.01 | 0.71 | 0.73 | 0.76 |
+| Adam | No | 5 | Yes | 0.01 | 0.72 | 0.76 | 0.71 |
+| Adam | No | 10 | Yes | 0.01 | 0.69 | 0.72 | 0.72 |
 
 
 ### Transfer Learning
