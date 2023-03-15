@@ -28,7 +28,7 @@ The first network trained on the data had a single layer with a RELU connection.
 
 <p align="center">
   <figure>
-    <img src="images/simple_loss" alt="simple loss function" width=500>
+    <img src="images/simple_loss.png" alt="simple loss function" width=500>
     <figcaption>Loss function for the simple neural network. It does not show much learning. </figcaption>
   </figure>
 </p>
