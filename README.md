@@ -48,6 +48,23 @@ The next nextwork trained on the data was a convolutional neural network with th
 | Adam | No | 5 | Yes | 0.01 | 0.72 | 0.76 | 0.71 |
 | Adam | No | 10 | Yes | 0.01 | 0.69 | 0.72 | 0.72 |
 
+This model achieved significancly better performance. Below is the loss curve for the first attempt:
+
+<p align="center">
+  <img src="images/conv_1_loss.png" alt="conv 1 loss" width=500/>
+</p>
+
+And the fourth attempt using the Adam optimizer:
+
+<p align="center">
+  <img src="images/conv_2_loss.png" alt="conv 2 loss" width=500/>
+</p>
+
+We also tried using the Darknet Reference Network, which resulted in a signicant jump in performance.
+
+<p align="center">
+  <img src="images/darknet.png" alt="darknet" width=500/>
+</p>
 
 ### Transfer Learning
 
