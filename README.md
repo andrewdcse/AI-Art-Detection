@@ -38,7 +38,7 @@ Shown above is the loss function, which does not show much learning. It appears 
 
 ### Convolutional Neural Networks
 
-The next nextwork trained on the data was a convolutional neural network with three layers containing image filters for feature extraction. Various permutations of model parameters were tried.
+The next nextwork trained on the data was a convolutional neural network with three layers containing image filters for feature extraction. Various permutations of model parameters were tried. The shown metrics are from evaluation on the test set.
   
 | Optimizer | Annealing | Epochs | Batch Normalization | Learning Rate | Accuracy | Precision | Recall |
 | - | - | - | - | - | - | - | - |
@@ -48,7 +48,7 @@ The next nextwork trained on the data was a convolutional neural network with th
 | Adam | No | 5 | Yes | 0.01 | 0.72 | 0.76 | 0.71 |
 | Adam | No | 10 | Yes | 0.01 | 0.69 | 0.72 | 0.72 |
 
-This model achieved significancly better performance. Below is the loss curve for the first attempt:
+This model achieved significantly better performance, though the annealing we used caused it to fall into the local minima of guessing that all of the images were real. Below is the loss curve for the first attempt:
 
 <p align="center">
   <img src="images/conv_1_loss.png" alt="conv 1 loss" width=500/>
@@ -67,6 +67,16 @@ We also tried using the Darknet Reference Network, which resulted in a signicant
 </p>
 
 ### Transfer Learning
+
+The final method we used was transfer learning from ResNet. The imported model was trained on the data for varied epochs and achieved high performance.
+
+| Epochs | Learning Rate | Accuracy | Precision | Recall |
+| - | - | - | - | - |
+| 5 | 0.01 | 0.84 | 0.93 | 0.77 |
+| 10 | 0.01 | 0.89 | 0.91 | 0.89 |
+| 20 | 0.01 | 0.90 | 0.93 | 0.89 |
+
+Though the test metrics improved as the epochs were increased, the model heavily overfitted the training set, reaching 99% training accuracy.
 
 ## Discussion
 
