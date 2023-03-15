@@ -1,4 +1,4 @@
-Andrew Chen
+# Using Neural Networks to Detect AI-Generated Images
 
 ## Problem
 
