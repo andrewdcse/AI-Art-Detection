@@ -36,9 +36,14 @@ Shown above is the loss function, which does not show much learning. It appears 
   <img src="images/simple_guesses.png" alt="simple function guesses" width=500/>
 </p>
 
-<figure> 
-
 ### Convolutional Neural Networks
+
+The next nextwork trained on the data was a convolutional neural network with three layers containing image filters for feature extraction. Various permutations of model parameters were tried.
+  
+Optimizer | Annealing | Epochs | Batch Normalization | Learning Rate | Accuracy | Precision | Recall
+ - | - | - | - | - | - | - | - 
+SGD | No | 5 | No | 0.1 | 0.67 | 0.68 |  0.77 
+
 
 ### Transfer Learning
 
