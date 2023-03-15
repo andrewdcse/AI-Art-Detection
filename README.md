@@ -1,1 +1,1 @@
-# cse-455
+### AI Art Detection
