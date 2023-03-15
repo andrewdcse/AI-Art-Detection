@@ -20,9 +20,18 @@ The [dataset](https://www.kaggle.com/datasets/superpotato9/dalle-recognition-dat
 
 ## Methods
 
-In order to observe the effectiveness of variuos different neural network types, we started 
+In order to observe the effectiveness of various different neural network types, we started training simpler models on the data and progressed towards more complex and powerful models and methods. The data was split into training and test sets randomly and with a 80-20 split.
 
 ### Simple Neural Network
+
+The first network trained on the data had a single layer with a RELU connection. The result was 59% accuracy, which was slightly better than random guessing or picking the most common option. 
+
+<p align="center">
+  <figure>
+    <img src="images/simple_loss" alt="simple loss function" width=500>
+    <figcaption>Loss function for the simple neural network. It does not show much learning. </figcaption>
+  </figure>
+</p>
 
 ### Convolutional Neural Networks
 
