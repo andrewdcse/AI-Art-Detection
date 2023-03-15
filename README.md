@@ -26,12 +26,10 @@ In order to observe the effectiveness of various different neural network types,
 
 The first network trained on the data had a single layer with a RELU connection. The result was 59% accuracy, which was slightly better than random guessing or picking the most common option. 
 
-<p align="center">
-  <figure>
-    <img src="images/simple_loss.png" alt="simple loss function" width=500>
-    <figcaption>Loss function for the simple neural network. It does not show much learning. </figcaption>
-  </figure>
-</p>
+<figure align="center">
+  <img src="images/simple_loss.png" alt="simple loss function" width=500>
+  <figcaption>Loss function for the simple neural network. It does not show much learning. </figcaption>
+</figure>
 
 ### Convolutional Neural Networks
 
