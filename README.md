@@ -1,13 +1,13 @@
 ![midjourney image](midjourney.jpg)
 
-### Using Neural Networks to Detect AI Art
+# Using Neural Networks to Detect AI Art
 
 ## Methods
 
-# Simple Neural Network
+### Simple Neural Network
 
-# Convolutional Neural Networks
+### Convolutional Neural Networks
 
-# Transfer Learning
+### Transfer Learning
 
 ## Discussion
