@@ -4,6 +4,8 @@
 
 [Project Video Link](https://youtu.be/BDmTw8Zi3vM)
 
+[Code Link](https://colab.research.google.com/drive/1TB_-ROOXW7zZwMd6B4hX2U2GScWyn8xK?usp=sharing)
+
 While AI has been used to generate images since its inception, the use of deep learning to generate images resembling art has only recently been brought to the public forefront. Following the public releases of diffusion-based image generation models in mid-2022 such as DALL-E 2, Midjourney, and Stable Diffusion, various moral and ethical concerns have been raised regarding their outputs and methods<sup>[1]</sup>.
 
 <p align="center">
